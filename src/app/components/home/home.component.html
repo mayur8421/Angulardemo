@@ -1,0 +1,25 @@
+
+    <div class="container">
+            <div class="row">
+              <h1><span class="label label-default">Employee Details</span></h1>
+            </div>
+
+
+            <div class="row">
+                    <div class="col-sm-8 col-12">
+                            <div class="chart-wrapper" style="position: relative;">
+                                <canvas baseChart 
+                                [datasets]="barChartData"
+                                [labels]="barChartLabels"
+                                [options]="barChartOptions"
+                                [plugins]="barChartPlugins"
+                                [legend]="barChartLegend"
+                                [chartType]="barChartType">
+                              </canvas>
+                            </div>
+                    </div>
+                
+            </div>
+    </div>
+
+
